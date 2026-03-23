@@ -14,6 +14,7 @@ validate()
 }
 dnf install -y nginx
 if [ $? -ne 0 ]; then
+    sudo su -
     dnf install nginx -y
     validate $? "nginx"
 else
