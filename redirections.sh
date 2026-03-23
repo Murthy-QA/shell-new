@@ -3,5 +3,5 @@ i=1
 while read line
 do
     echo "$i line $line"
-    ($i++)
+    ((i++))
 done < file.txt
