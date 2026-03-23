@@ -1,5 +1,7 @@
 #!/bin/bash
+i=1
 while read line
 do
-    echo "Reading the line $line"
-done
+    echo "$i line $line"
+    (($i++))
+done < file.txt
