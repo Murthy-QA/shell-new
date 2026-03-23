@@ -5,3 +5,8 @@ if [ $((num % 2)) -eq 0 ]; then
 else
     echo "this is odd number"
 fi
+if [ $? -eq 0 ]; then
+    echo "Above condition is true"
+else   
+    echo "Above condition is false"
+fi
