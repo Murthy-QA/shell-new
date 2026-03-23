@@ -7,3 +7,11 @@ do
   fi
   echo $i
 done
+
+for j in {1..5}
+do
+  if [ $j -eq 3 ]; then
+    break
+  fi
+  echo $j
+done
