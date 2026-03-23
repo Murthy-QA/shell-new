@@ -16,9 +16,9 @@ do
   echo $j
 done
 
-services= ("nginx" "python3")
+services=("nginx" "python3")
 for service in "${services[@]}"
 do
     echo "Installing $service"
-    dnf install -y $service
+    sudo dnf install -y $service
 done
