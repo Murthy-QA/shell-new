@@ -7,3 +7,4 @@ echo "who is running the script user is: $USER"
 echo "Home directory is: $HOME"
 sleep 50 &
 echo "PID of last command in background is: $!"
+echo "hello world" | rev
