@@ -1,5 +1,5 @@
 #!/bin/bash
-read i
+# read i
 for i in {1..5}
 do
   if [ $i -eq 3 ]; then
