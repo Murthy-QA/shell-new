@@ -15,3 +15,9 @@ do
   fi
   echo $j
 done
+
+services= "nginx" "python3"
+for service in $services
+do
+    dnf install -y $service
+done
